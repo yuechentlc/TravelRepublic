@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B06EBC5F1DD4D81000F42010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC5E1DD4D81000F42010 /* AppDelegate.swift */; };
-		B06EBC611DD4D81000F42010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC601DD4D81000F42010 /* ViewController.swift */; };
 		B06EBC641DD4D81000F42010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06EBC621DD4D81000F42010 /* Main.storyboard */; };
 		B06EBC671DD4D81000F42010 /* TravelRepublicApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC651DD4D81000F42010 /* TravelRepublicApp.xcdatamodeld */; };
 		B06EBC691DD4D81000F42010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06EBC681DD4D81000F42010 /* Assets.xcassets */; };
 		B06EBC6C1DD4D81000F42010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06EBC6A1DD4D81000F42010 /* LaunchScreen.storyboard */; };
 		B06EBC771DD4D81000F42010 /* TravelRepublicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC761DD4D81000F42010 /* TravelRepublicAppTests.swift */; };
+		B06EBC851DD4D95200F42010 /* AsyncPostServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC831DD4D95200F42010 /* AsyncPostServiceHandler.swift */; };
+		B06EBC861DD4D95200F42010 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC841DD4D95200F42010 /* DataParser.swift */; };
+		B06EBC8B1DD4D97D00F42010 /* HolidayDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC8A1DD4D97D00F42010 /* HolidayDeal.swift */; };
+		B06EBC8D1DD4D98900F42010 /* HomeUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC8C1DD4D98900F42010 /* HomeUICollectionViewController.swift */; };
+		B06EBC8F1DD4D99400F42010 /* HomeUICollectionViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC8E1DD4D99400F42010 /* HomeUICollectionViewControllerViewModel.swift */; };
+		B06EBC921DD4DC5900F42010 /* HolidayDealUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC911DD4DC5900F42010 /* HolidayDealUICollectionViewCell.swift */; };
+		B06EBC941DD4F77700F42010 /* AsyncImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC931DD4F77700F42010 /* AsyncImageLoader.swift */; };
+		B06EBC961DD4F7BB00F42010 /* TravelRepublicAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC951DD4F7BB00F42010 /* TravelRepublicAppConstants.swift */; };
+		B0F6E04B1DD5190800E9BE48 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC841DD4D95200F42010 /* DataParser.swift */; };
+		B0F6E04C1DD5190F00E9BE48 /* HolidayDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC8A1DD4D97D00F42010 /* HolidayDeal.swift */; };
+		B0F6E04E1DD5195200E9BE48 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F6E04D1DD5195200E9BE48 /* testData.json */; };
+		B0F6E04F1DD51CAE00E9BE48 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F6E04D1DD5195200E9BE48 /* testData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +40,6 @@
 /* Begin PBXFileReference section */
 		B06EBC5B1DD4D81000F42010 /* TravelRepublicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelRepublicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06EBC5E1DD4D81000F42010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B06EBC601DD4D81000F42010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B06EBC631DD4D81000F42010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B06EBC661DD4D81000F42010 /* TravelRepublicApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelRepublicApp.xcdatamodel; sourceTree = "<group>"; };
 		B06EBC681DD4D81000F42010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +48,15 @@
 		B06EBC721DD4D81000F42010 /* TravelRepublicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelRepublicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06EBC761DD4D81000F42010 /* TravelRepublicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelRepublicAppTests.swift; sourceTree = "<group>"; };
 		B06EBC781DD4D81000F42010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06EBC831DD4D95200F42010 /* AsyncPostServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncPostServiceHandler.swift; path = TravelRepublicApp/ServiceLayer/AsyncPostServiceHandler.swift; sourceTree = "<group>"; };
+		B06EBC841DD4D95200F42010 /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataParser.swift; path = TravelRepublicApp/ServiceLayer/DataParser.swift; sourceTree = "<group>"; };
+		B06EBC8A1DD4D97D00F42010 /* HolidayDeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HolidayDeal.swift; path = TravelRepublicApp/ApplicationLayer/Model/HolidayDeal.swift; sourceTree = "<group>"; };
+		B06EBC8C1DD4D98900F42010 /* HomeUICollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeUICollectionViewController.swift; path = TravelRepublicApp/ApplicationLayer/ViewController/HomeUICollectionViewController.swift; sourceTree = "<group>"; };
+		B06EBC8E1DD4D99400F42010 /* HomeUICollectionViewControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeUICollectionViewControllerViewModel.swift; path = TravelRepublicApp/ApplicationLayer/ViewModel/HomeUICollectionViewControllerViewModel.swift; sourceTree = "<group>"; };
+		B06EBC911DD4DC5900F42010 /* HolidayDealUICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HolidayDealUICollectionViewCell.swift; path = TravelRepublicApp/ApplicationLayer/View/HolidayDealUICollectionViewCell.swift; sourceTree = "<group>"; };
+		B06EBC931DD4F77700F42010 /* AsyncImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncImageLoader.swift; path = TravelRepublicApp/ServiceLayer/AsyncImageLoader.swift; sourceTree = "<group>"; };
+		B06EBC951DD4F7BB00F42010 /* TravelRepublicAppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelRepublicAppConstants.swift; path = TravelRepublicApp/TravelRepublicAppConstants.swift; sourceTree = "<group>"; };
+		B0F6E04D1DD5195200E9BE48 /* testData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,9 @@
 		B06EBC521DD4D80F00F42010 = {
 			isa = PBXGroup;
 			children = (
+				B0E3961F1DD50AD30079A9CC /* Utils */,
+				B06EBC821DD4D91F00F42010 /* ApplicationLayer */,
+				B06EBC811DD4D91100F42010 /* ServiceLayer */,
 				B06EBC5D1DD4D81000F42010 /* TravelRepublicApp */,
 				B06EBC751DD4D81000F42010 /* TravelRepublicAppTests */,
 				B06EBC5C1DD4D81000F42010 /* Products */,
@@ -80,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				B06EBC5E1DD4D81000F42010 /* AppDelegate.swift */,
-				B06EBC601DD4D81000F42010 /* ViewController.swift */,
 				B06EBC621DD4D81000F42010 /* Main.storyboard */,
 				B06EBC681DD4D81000F42010 /* Assets.xcassets */,
 				B06EBC6A1DD4D81000F42010 /* LaunchScreen.storyboard */,
@@ -95,8 +116,70 @@
 			children = (
 				B06EBC761DD4D81000F42010 /* TravelRepublicAppTests.swift */,
 				B06EBC781DD4D81000F42010 /* Info.plist */,
+				B0F6E04D1DD5195200E9BE48 /* testData.json */,
 			);
 			path = TravelRepublicAppTests;
+			sourceTree = "<group>";
+		};
+		B06EBC811DD4D91100F42010 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B06EBC831DD4D95200F42010 /* AsyncPostServiceHandler.swift */,
+				B06EBC841DD4D95200F42010 /* DataParser.swift */,
+				B06EBC931DD4F77700F42010 /* AsyncImageLoader.swift */,
+			);
+			name = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		B06EBC821DD4D91F00F42010 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B06EBC901DD4DC1600F42010 /* View */,
+				B06EBC891DD4D97000F42010 /* Model */,
+				B06EBC881DD4D96900F42010 /* ViewController */,
+				B06EBC871DD4D95B00F42010 /* ViewModel */,
+			);
+			name = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		B06EBC871DD4D95B00F42010 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B06EBC8E1DD4D99400F42010 /* HomeUICollectionViewControllerViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		B06EBC881DD4D96900F42010 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B06EBC8C1DD4D98900F42010 /* HomeUICollectionViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B06EBC891DD4D97000F42010 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B06EBC8A1DD4D97D00F42010 /* HolidayDeal.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B06EBC901DD4DC1600F42010 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B06EBC911DD4DC5900F42010 /* HolidayDealUICollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B0E3961F1DD50AD30079A9CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B06EBC951DD4F7BB00F42010 /* TravelRepublicAppConstants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F6E04F1DD51CAE00E9BE48 /* testData.json in Resources */,
 				B06EBC6C1DD4D81000F42010 /* LaunchScreen.storyboard in Resources */,
 				B06EBC691DD4D81000F42010 /* Assets.xcassets in Resources */,
 				B06EBC641DD4D81000F42010 /* Main.storyboard in Resources */,
@@ -192,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F6E04E1DD5195200E9BE48 /* testData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06EBC961DD4F7BB00F42010 /* TravelRepublicAppConstants.swift in Sources */,
+				B06EBC941DD4F77700F42010 /* AsyncImageLoader.swift in Sources */,
+				B06EBC8F1DD4D99400F42010 /* HomeUICollectionViewControllerViewModel.swift in Sources */,
 				B06EBC671DD4D81000F42010 /* TravelRepublicApp.xcdatamodeld in Sources */,
-				B06EBC611DD4D81000F42010 /* ViewController.swift in Sources */,
+				B06EBC851DD4D95200F42010 /* AsyncPostServiceHandler.swift in Sources */,
+				B06EBC8B1DD4D97D00F42010 /* HolidayDeal.swift in Sources */,
+				B06EBC861DD4D95200F42010 /* DataParser.swift in Sources */,
+				B06EBC921DD4DC5900F42010 /* HolidayDealUICollectionViewCell.swift in Sources */,
 				B06EBC5F1DD4D81000F42010 /* AppDelegate.swift in Sources */,
+				B06EBC8D1DD4D98900F42010 /* HomeUICollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F6E04B1DD5190800E9BE48 /* DataParser.swift in Sources */,
 				B06EBC771DD4D81000F42010 /* TravelRepublicAppTests.swift in Sources */,
+				B0F6E04C1DD5190F00E9BE48 /* HolidayDeal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +504,7 @@
 				B06EBC7D1DD4D81000F42010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B06EBC7E1DD4D81000F42010 /* Build configuration list for PBXNativeTarget "TravelRepublicAppTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +513,7 @@
 				B06EBC801DD4D81000F42010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

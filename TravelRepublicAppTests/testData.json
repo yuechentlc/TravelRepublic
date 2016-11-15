@@ -1,0 +1,60 @@
+{
+    "Aggregates": {
+        "HotelsByChildDestination": {
+            "4|3539": {
+                "Title": "Morocco",
+                "Count": 234,
+                "MinPrice": 184.96,
+                "Position": 12
+            },
+            "4|3543": {
+                "Title": "Mexico",
+                "Count": 198,
+                "MinPrice": 1057.94,
+                "Position": 17
+            },
+            "4|3548": {
+                "Title": "Portugal & Algarve",
+                "Count": 5,
+                "MinPrice": 321,
+                "Position": 3
+            },
+            "4|5763": {
+                "Title": "Cape Verde Islands",
+                "Count": 4,
+                "MinPrice": 1517,
+                "Position": 18
+            },
+            "10|7196": {
+                "Title": "Malta",
+                "Count": 57,
+                "MinPrice": 162.96,
+                "Position": 8
+            },
+            "10|10030": {
+                "Title": "Majorca, Ibiza & Menorca",
+                "Count": 39,
+                "MinPrice": 285.6316,
+                "Position": 1
+            },
+            "10|10031": {
+                "Title": "Canary Islands",
+                "Count": 247,
+                "MinPrice": 329.96,
+                "Position": 0
+            },
+            "10|10049": {
+                "Title": "Mainland Spain",
+                "Count": 200,
+                "MinPrice": 194.96,
+                "Position": 2
+            },
+            "10|10051": {
+                "Title": "Caribbean",
+                "Count": 86,
+                "MinPrice": 1508.44,
+                "Position": 16
+            }
+        }
+    }
+}
